@@ -2,4 +2,4 @@
 
 - This repo is purely **educational** - it's my vault for algorithmic problems mainly from Leetcode. 
 
-- Let's solve together! Find me here: https://leetcode.com/atmay/
+- Let's solve together! My Leetcode account is [here](https://leetcode.com/atmay/) ✨

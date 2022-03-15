@@ -16,7 +16,7 @@ class ListNode:
 
 
 def remove_nth_from_end(head: Optional[ListNode], n: int) -> Optional[ListNode]:
-    """I used two pointers approach. When rightmost pointer hits end,
+    """I used sliding window approach. When rightmost pointer hits end,
     reassign links for the next node for the leftmost pointer"""
     l = r = head
     for _ in range(n):

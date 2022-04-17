@@ -25,6 +25,14 @@ class ListNode:
 
 class Solution:
     def merge_nodes(self, head: ListNode | None) -> ListNode | None:
+        """
+        I used 2 pointers approach. As it says, head.val always equals to zero, so I assigned pointer 1 to the head and
+        started adding up values of next nodes by moving second pointer step by step until value of node wasn't 0.
+        In this case I moved the first pointer to the next node, assigned combined value to it and restarted
+        calculating sum of nodes. When pointer 2 reached the end of the linked list, I marked next node of pointer 1 as
+        None and returned head.next.
+
+        """
         p1 = head
         p2 = head.next
         val = 0

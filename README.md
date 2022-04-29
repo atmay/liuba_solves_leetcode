@@ -11,5 +11,6 @@ Repo contains not only solutions but also explanations.
 - dynamic programming,
 - data structures (linked list, graph, tree etc.)
 
-Right now I'm solving LeetCode Binary Search Study Plan, check it out: 
+Right now I'm solving LeetCode Binary Search Study Plan, [check it out](https://leetcode.com/study-plan/binary-search/) ✨
+
 Let's solve together! My Leetcode account is [here](https://leetcode.com/atmay/) ✨
